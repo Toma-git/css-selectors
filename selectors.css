@@ -1,0 +1,40 @@
+/* universal selector */
+* {
+    margin:0;
+    padding:0;
+}
+
+/* div {
+    width: 500px;
+    height: 500px;
+    background-color: salmon;
+} */
+
+/* attribute selector */
+/* selector[attr-name:attr-value] {} */
+
+input[type="text"] {
+    background-color: turquoise;
+}
+
+div.parent {
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+}
+
+/* Descendant combinator */
+div.parent div {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+}
+
+/* Child combinator */
+.big-div > span {
+    color: red;
+}
+
+span ~ p {
+    color: red;
+}
