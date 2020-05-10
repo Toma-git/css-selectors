@@ -1,0 +1,32 @@
+/* Pseudo-elements */
+
+/* syntax
+slsector::pseudo-element {} */
+
+p {
+    color: red;
+}
+
+p::first-line {
+    color: blue;
+}
+
+p::first-letter {
+    color: coral;
+    font-size: 30px;
+    font-family:sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+p::selection {
+    background-color: teal;
+}
+
+input::placeholder {
+    color: turquoise;
+}
+
+a::before {
+    content: "👺";
+}
